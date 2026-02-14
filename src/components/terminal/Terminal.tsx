@@ -26,7 +26,7 @@ export default function Terminal() {
         if (!input.trim()) return;
 
         const cmd = input.trim().toLowerCase();
-        addHistory(`admin@cyberintel:~# ${input}`);
+        addHistory(`root@cyberintel:~# ${input}`);
 
         // Command Logic
         switch (cmd) {
@@ -209,7 +209,7 @@ export default function Terminal() {
 
             {/* Input Line */}
             <form onSubmit={handleCommand} className="mt-2 flex items-center gap-2 border-t border-cyber-primary/30 pt-2 relative z-10 bg-cyber-bg-dark/50 -mx-4 px-4 -mb-4 pb-4">
-                <span className="text-cyber-primary font-bold drop-shadow-[0_0_5px_rgba(74,246,38,0.5)]">admin@cyberintel:~#</span>
+                <span className="text-cyber-primary font-bold drop-shadow-[0_0_5px_rgba(74,246,38,0.5)]">root@cyberintel:~#</span>
                 <input
                     ref={inputRef}
                     type="text"

@@ -5,7 +5,7 @@ export default function ModuleCloseButton() {
     const setActiveModule = useSystemStore((state) => state.setActiveModule);
 
     const handleClose = () => {
-        setActiveModule('terminal');
+        setActiveModule(null);
     };
 
     return (
