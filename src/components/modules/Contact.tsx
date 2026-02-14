@@ -1,8 +1,10 @@
 import { Mail, Phone, Linkedin, Github } from 'lucide-react';
+import ModuleCloseButton from '../common/ModuleCloseButton';
 
 export default function Contact() {
     return (
-        <div className="h-full w-full p-8 flex items-center justify-center overflow-y-auto">
+        <div className="h-full w-full p-8 flex items-center justify-center overflow-y-auto scroll-smooth">
+            <ModuleCloseButton />
             <div className="w-full max-w-2xl">
 
                 {/* Contact Info */}

@@ -1,5 +1,6 @@
 import { clsx } from 'clsx';
 import { Database, Layout, Shield, Cloud } from 'lucide-react';
+import ModuleCloseButton from '../common/ModuleCloseButton';
 
 const SKILLS_DATA = [
     { category: "CYBER_SEC", icon: Shield, skills: ["VAPT", "Bug Hunting", "OWASP Top 10", "Burp Suite", "Wireshark", "Hashcat"] },
@@ -10,7 +11,8 @@ const SKILLS_DATA = [
 
 export default function Skills() {
     return (
-        <div className="h-full w-full p-4 overflow-y-auto scrollbar-thin scrollbar-thumb-cyber-primary/20">
+        <div className="h-full w-full p-4 overflow-y-auto scroll-smooth scrollbar-thin scrollbar-thumb-cyber-primary/20">
+            <ModuleCloseButton />
             <div className="border-b border-cyber-primary/30 pb-2 mb-6 flex justify-between items-end">
                 <h1 className="text-3xl font-bold text-cyber-primary tracking-tighter">CAPABILITY_MATRIX</h1>
                 <span className="text-cyber-text-dim text-xs">STATUS: OPTIMAL</span>

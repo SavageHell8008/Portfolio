@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Folder, FileText, Lock, ExternalLink } from 'lucide-react';
 import { clsx } from 'clsx';
+import ModuleCloseButton from '../common/ModuleCloseButton';
 
 const PROJECTS = [
     {
@@ -37,6 +38,7 @@ export default function Projects() {
 
     return (
         <div className="h-full w-full flex gap-4 p-4">
+            <ModuleCloseButton />
             {/* File Explorer List */}
             <div className="w-1/3 border-r border-cyber-primary/20 pr-4 flex flex-col gap-2">
                 <div className="text-cyber-text-dim text-xs tracking-widest mb-4 border-b border-cyber-primary/10 pb-2">

@@ -1,4 +1,5 @@
 import { ExternalLink, Shield, Code, Users, Zap, Target, Trophy, Lock, Activity, Server, Brain, Rocket } from 'lucide-react';
+import ModuleCloseButton from '../common/ModuleCloseButton';
 
 export default function GoPwnIt() {
     const handleRedirect = () => {
@@ -6,7 +7,8 @@ export default function GoPwnIt() {
     };
 
     return (
-        <div className="h-full w-full p-8 overflow-y-auto scrollbar-thin scrollbar-thumb-cyber-primary/20">
+        <div className="h-full w-full p-8 overflow-y-auto scroll-smooth scrollbar-thin scrollbar-thumb-cyber-primary/20">
+            <ModuleCloseButton />
             <div className="max-w-6xl mx-auto">
                 {/* Header */}
                 <div className="border-b border-cyber-primary/30 pb-6 mb-8">

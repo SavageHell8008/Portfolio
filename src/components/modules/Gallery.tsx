@@ -1,5 +1,6 @@
 import { Image, X, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useState } from 'react';
+import ModuleCloseButton from '../common/ModuleCloseButton';
 
 const GALLERY_IMAGES = [
     {
@@ -57,7 +58,8 @@ export default function Gallery() {
     const selectedImg = GALLERY_IMAGES.find(img => img.id === selectedImage);
 
     return (
-        <div className="h-full w-full p-8 overflow-y-auto scrollbar-thin scrollbar-thumb-cyber-primary/20">
+        <div className="h-full w-full p-8 overflow-y-auto scroll-smooth scrollbar-thin scrollbar-thumb-cyber-primary/20">
+            <ModuleCloseButton />
             {/* Header */}
             <div className="border-b border-cyber-primary/30 pb-6 mb-8">
                 <div className="flex items-center gap-3 mb-2">

@@ -112,9 +112,9 @@ export default function Terminal() {
                 addHistory("╚══════════════════════════════════════╝");
                 break;
             case 'neofetch':
-                addHistory("     ___           abhishek@cyberintel");
+                addHistory("     ___           root@cyberintel");
                 addHistory("    (.. |          ─────────────────────");
-                addHistory("    (<> |          OS: whoami://abhishek v4.0.1");
+                addHistory("    (<> |          OS: whoami://root v4.0.1");
                 addHistory("   / __  \\         Host: GLA University");
                 addHistory("  ( /  \\ /|        Kernel: B.Tech CSE (IOT/AIML)");
                 addHistory(" _/\\ __)/_)        Uptime: Since 2022");

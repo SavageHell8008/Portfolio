@@ -1,4 +1,5 @@
 import { Trophy, Award, Star, Shield, Mic, Users } from 'lucide-react';
+import ModuleCloseButton from '../common/ModuleCloseButton';
 
 const AWARDS = [
     { title: "Top 15% Global Rank", issuer: "TryHackMe", date: "2024", icon: Star },
@@ -12,7 +13,8 @@ const AWARDS = [
 
 export default function Achievements() {
     return (
-        <div className="h-full w-full p-8 overflow-y-auto scrollbar-thin scrollbar-thumb-cyber-primary/20">
+        <div className="h-full w-full p-8 overflow-y-auto scroll-smooth scrollbar-thin scrollbar-thumb-cyber-primary/20">
+            <ModuleCloseButton />
             <h1 className="text-3xl font-bold text-cyber-primary tracking-tighter mb-8 border-b border-cyber-primary/30 pb-4">
                 AWARDS_DB
             </h1>

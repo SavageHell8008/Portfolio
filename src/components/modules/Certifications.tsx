@@ -1,4 +1,5 @@
 import { Shield, Award, CheckCircle, ExternalLink } from 'lucide-react';
+import ModuleCloseButton from '../common/ModuleCloseButton';
 
 const CERTIFICATIONS = [
     {
@@ -158,7 +159,8 @@ const CERTIFICATIONS = [
 
 export default function Certifications() {
     return (
-        <div className="h-full w-full p-8 overflow-y-auto scrollbar-thin scrollbar-thumb-cyber-primary/20">
+        <div className="h-full w-full p-8 overflow-y-auto scroll-smooth scrollbar-thin scrollbar-thumb-cyber-primary/20">
+            <ModuleCloseButton />
             {/* Header */}
             <div className="border-b border-cyber-primary/30 pb-6 mb-8">
                 <h1 className="text-4xl font-bold text-cyber-primary tracking-tighter mb-2">CERTIFICATIONS_DB</h1>

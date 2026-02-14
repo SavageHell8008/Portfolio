@@ -1,4 +1,5 @@
 import { Briefcase, Calendar } from 'lucide-react';
+import ModuleCloseButton from '../common/ModuleCloseButton';
 
 const EXPERIENCE = [
     {
@@ -40,7 +41,8 @@ const EXPERIENCE = [
 
 export default function Experience() {
     return (
-        <div className="h-full w-full p-8 overflow-y-auto scrollbar-thin scrollbar-thumb-cyber-primary/20">
+        <div className="h-full w-full p-8 overflow-y-auto scroll-smooth scrollbar-thin scrollbar-thumb-cyber-primary/20">
+            <ModuleCloseButton />
             <h1 className="text-3xl font-bold text-cyber-primary tracking-tighter mb-8 border-b border-cyber-primary/30 pb-4">
                 OPERATION_LOG
             </h1>
