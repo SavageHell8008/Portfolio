@@ -14,7 +14,7 @@ export default function SystemBar() {
             <div className="flex items-center gap-4">
                 <div className="flex items-center gap-2 text-cyber-primary animate-pulse">
                     <Lock size={16} />
-                    <span className="font-bold tracking-wider text-sm">whoami://root</span>
+                    <span className="font-bold tracking-wider text-sm">whoami://Abhishek</span>
                 </div>
                 <div className="h-4 w-[1px] bg-cyber-primary/30" />
                 <span className="text-xs text-cyber-text-dim">v4.0.1_STABLE</span>
